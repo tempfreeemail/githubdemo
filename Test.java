@@ -12,6 +12,13 @@ public class Test {
 		
 		System.out.println("Enter the third number : ");
 		int c = sc.nextInt();
-		System.out.println("Value of a : "+a);
+		
+		int addition = a + b + c;
+		
+		System.out.println("Addition : "+addition);
+		
+		int avg = addition / 3;
+		
+		System.out.println("Average : "+avg);
     }
 }
